@@ -1,0 +1,7 @@
+---
+title: Pruebita
+author: Pruebas
+date: '2026-07-25'
+---
+
+Esta publicación es una pruebita
