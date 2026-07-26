@@ -1,0 +1,17 @@
+{
+  "hash": "777d1adcf3845700bd444c3c5a154217",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: Pruebita\nauthor: Pruebas\ndate: '2026-07-25'\n---\n\nEsta publicación es una pruebita súper bonita.\n\nAhora actualizaremos este post.\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(ggplot2)\n\niris |>\n  ggplot() +\n  aes(x = Sepal.Length, y = Sepal.Width, alpha = Petal.Length) +\n  geom_jitter() +\n  theme_classic()\n```\n\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

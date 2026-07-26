@@ -11,7 +11,7 @@
     "href": "posts/pruebita/index.html",
     "title": "Pruebita",
     "section": "",
-    "text": "Esta publicación es una pruebita"
+    "text": "Esta publicación es una pruebita súper bonita.\nAhora actualizaremos este post.\n\nlibrary(ggplot2)\n\niris |&gt;\n  ggplot() +\n  aes(x = Sepal.Length, y = Sepal.Width, alpha = Petal.Length) +\n  geom_jitter() +\n  theme_classic()"
   },
   {
     "objectID": "posts/post-with-code/index.html",

@@ -4,4 +4,17 @@ author: Pruebas
 date: '2026-07-25'
 ---
 
-Esta publicación es una pruebita
+Esta publicación es una pruebita súper bonita.
+
+Ahora actualizaremos este post.
+
+```{r}
+library(ggplot2)
+
+iris |>
+  ggplot() +
+  aes(x = Sepal.Length, y = Sepal.Width, alpha = Petal.Length) +
+  geom_jitter() +
+  theme_classic()
+```
+
